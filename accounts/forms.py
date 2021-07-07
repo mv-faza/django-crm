@@ -16,7 +16,6 @@ class OrderForm(ModelForm):
 		model = Order
 		fields = '__all__'
 
-
 class CreateUserForm(UserCreationForm):
 	class Meta:
 		model = User
